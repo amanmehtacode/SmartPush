@@ -2,7 +2,7 @@ import os
 from groq import Groq
 
 # Initialize the Groq client with your API key
-client = Groq(api_key="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")
+client = Groq(api_key="GROQ_KEY")
 
 def get_commit_message(changes: str) -> str:
     # Define the commit message template
